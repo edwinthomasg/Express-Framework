@@ -20,4 +20,5 @@ app.listen(8080)
 /**The action between req and res is said to be middleware
  * It will be executed first for each routing
  * Sequential flow
+ * We can modify the req objects to
  */

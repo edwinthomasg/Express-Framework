@@ -1,0 +1,23 @@
+doctype html 
+html 
+    - var message = "Thankyou" 
+    head 
+        title Home 
+        style 
+            include style.css
+    body 
+        h1#heading Registeration Form
+        form(action="http://localhost:8080/Redirect")
+            input(type="text" 
+                  placeholder="Enter Name"
+            )
+            input(type="email" 
+                  placeholder="Enter Mail"
+            )
+            input(type="submit", value="Submit")
+        a(href="/")
+        ul 
+             each val in ['c','c++']  
+                li=val
+        p=message
+        

@@ -19,7 +19,7 @@ router.get('/for-loop',(req,res)=>{
     console.log("Middleware 2")
 })
 app.use('/java',router)
-app.use('*',(req,res)=>{
-    res.status(500).send("Page Not Found")
-})
+// app.use('*',(req,res)=>{
+//     res.status(500).send("Page Not Found")
+// })
 app.listen(8050)
