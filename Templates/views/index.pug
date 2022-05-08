@@ -4,7 +4,7 @@ html
     head 
         title Home 
         style 
-            include style.css
+            include style.css 
     body 
         h1#heading Registeration Form
         form(action="http://localhost:8080/Redirect")
@@ -20,4 +20,5 @@ html
              each val in ['c','c++']  
                 li=val
         p=message
-        
+        p Hello #{user.name} 
+        h1(style="color:green;margin-left:200px") End Message : #{message}
