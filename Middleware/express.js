@@ -16,7 +16,7 @@ app.use((req,res,next)=>{
     console.log("Middleware 2")
     alert("End")
 })
-app.listen(8080)
+app.listen(7070)
 /**The action between req and res is said to be middleware
  * It will be executed first for each routing
  * Sequential flow

@@ -12,6 +12,7 @@ app.get('/home',(req,res)=>{
         name : req.query['user_name'],
         email : req.query['user_email']
     }
+    // console.log(req.body)
     res.render('home',{details})
 })
-app.listen(4050)
+app.listen(7000)
