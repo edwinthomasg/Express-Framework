@@ -14,6 +14,6 @@ app.get('/info',(req,res)=>{
     res.render('info',{name,
         url:req.url})
 })
-
+console.log("hello hi")
 
 app.listen(5000)
